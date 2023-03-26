@@ -1,0 +1,66 @@
+/* style.css */
+
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* 导航样式 */
+nav {
+    margin: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* 文章样式 */
+article {
+    margin: 1em;
+}
+
+article h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+article p {
+    margin-bottom: 1em;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
